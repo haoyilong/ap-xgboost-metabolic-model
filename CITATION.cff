@@ -1,59 +1,27 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite both the article and the software itself."
 type: software
-title: "Explainable Metabolic-Clinical XGBoost Model for Mortality Prediction in Acute Pancreatitis"
+title: "AP-XGBoost-Metabolic-Model: Explainable Metabolic-Clinical XGBoost Model for AP Mortality Prediction"
 authors:
-  - family-names: "[姓]"
-    given-names: "[名]"
+  - family-names: "Hao"
+    given-names: "Yilong"
     orcid: "https://orcid.org/0000-0000-0000-0000"
-    affiliation: "[机构名称]"
-  - family-names: "[姓]"
-    given-names: "[名]"
-    orcid: "https://orcid.org/0000-0000-0000-0000"
-    affiliation: "[机构名称]"
-repository-code: "https://github.com/[username]/[repository-name]"
+    affiliation: "Shanghai Jiao Tong University School of Medicine"
+repository-code: "https://github.com/haoyilong/ap-xgboost-metabolic-model"
 license: MIT
-version: 1.0.0
-date-released: "2026-06-13"
-
-# Article reference (update after publication)
-preferred-citation:
-  type: article
-  title: "Development, Geographic Plausibility Check, and External Validation of an Explainable Metabolic-Clinical XGBoost Model for Mortality Prediction in Acute Pancreatitis: A Dual-Cohort Study with DM-Stratified Confounding Control"
-  authors:
-    - family-names: "[姓]"
-      given-names: "[名]"
-    - family-names: "[姓]"
-      given-names: "[名]"
-    - family-names: "[姓]"
-      given-names: "[名]"
-  journal: "BMC Medical Informatics and Decision Making"
-  year: 2026
-  volume: "[待填]"
-  issue: "[待填]"
-  pages: "[待填]"
-  doi: "10.1186/s12911-026-XXXXX-X"
-
+version: 1.0.2
+date-released: 2026-06-15
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.XXXXXXX
 keywords:
   - acute pancreatitis
-  - metabolic modeling
-  - machine learning
   - mortality prediction
+  - machine learning
+  - XGBoost
+  - metabolic modeling
   - diabetes mellitus
   - stress hyperglycemia
-  - TRIPOD+AI
-  - nested incremental modeling
-  - decision curve analysis
-  - SHAP explainability
-  - XGBoost
-  - critical care
   - MIMIC-IV
   - eICU-CRD
-
-abstract: >
-  This repository contains the complete analysis codebase for developing and
-  validating an explainable XGBoost model that integrates a comprehensive
-  metabolic-laboratory panel with a pragmatic, HbA1c-independent DM-stratification
-  framework for mortality prediction in acute pancreatitis. The study utilizes
-  MIMIC-IV v2.2 for development and eICU-CRD v2.0 for external validation,
-  strictly adhering to the TRIPOD+AI Statement and PROBAST guidelines.
+  - TRIPOD+AI
