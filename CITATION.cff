@@ -1,0 +1,59 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite both the article and the software itself."
+type: software
+title: "Explainable Metabolic-Clinical XGBoost Model for Mortality Prediction in Acute Pancreatitis"
+authors:
+  - family-names: "[姓]"
+    given-names: "[名]"
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+    affiliation: "[机构名称]"
+  - family-names: "[姓]"
+    given-names: "[名]"
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+    affiliation: "[机构名称]"
+repository-code: "https://github.com/[username]/[repository-name]"
+license: MIT
+version: 1.0.0
+date-released: "2026-06-13"
+
+# Article reference (update after publication)
+preferred-citation:
+  type: article
+  title: "Development, Geographic Plausibility Check, and External Validation of an Explainable Metabolic-Clinical XGBoost Model for Mortality Prediction in Acute Pancreatitis: A Dual-Cohort Study with DM-Stratified Confounding Control"
+  authors:
+    - family-names: "[姓]"
+      given-names: "[名]"
+    - family-names: "[姓]"
+      given-names: "[名]"
+    - family-names: "[姓]"
+      given-names: "[名]"
+  journal: "BMC Medical Informatics and Decision Making"
+  year: 2026
+  volume: "[待填]"
+  issue: "[待填]"
+  pages: "[待填]"
+  doi: "10.1186/s12911-026-XXXXX-X"
+
+keywords:
+  - acute pancreatitis
+  - metabolic modeling
+  - machine learning
+  - mortality prediction
+  - diabetes mellitus
+  - stress hyperglycemia
+  - TRIPOD+AI
+  - nested incremental modeling
+  - decision curve analysis
+  - SHAP explainability
+  - XGBoost
+  - critical care
+  - MIMIC-IV
+  - eICU-CRD
+
+abstract: >
+  This repository contains the complete analysis codebase for developing and
+  validating an explainable XGBoost model that integrates a comprehensive
+  metabolic-laboratory panel with a pragmatic, HbA1c-independent DM-stratification
+  framework for mortality prediction in acute pancreatitis. The study utilizes
+  MIMIC-IV v2.2 for development and eICU-CRD v2.0 for external validation,
+  strictly adhering to the TRIPOD+AI Statement and PROBAST guidelines.
