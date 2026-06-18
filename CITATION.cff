@@ -5,23 +5,16 @@ title: "AP-XGBoost-Metabolic-Model: Explainable Metabolic-Clinical XGBoost Model
 authors:
   - family-names: "Hao"
     given-names: "Yilong"
-    orcid: "https://orcid.org/0000-0000-0000-0000"
     affiliation: "Shanghai Jiao Tong University School of Medicine"
 repository-code: "https://github.com/haoyilong/ap-xgboost-metabolic-model"
 license: MIT
-version: 1.0.2
-date-released: 2026-06-15
-identifiers:
-  - type: doi
-    value: 10.5281/zenodo.XXXXXXX
+version: 1.0.0
+date-released: 2026-06-18
 keywords:
   - acute pancreatitis
   - mortality prediction
   - machine learning
   - XGBoost
   - metabolic modeling
-  - diabetes mellitus
-  - stress hyperglycemia
   - MIMIC-IV
   - eICU-CRD
-  - TRIPOD+AI
